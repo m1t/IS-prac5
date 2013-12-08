@@ -1,23 +1,165 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2519" systemVersion="12A206j" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1856"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--View Controller-->
         <scene sceneID="5">
             <objects>
                 <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cx2-4v-D4p">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="演習５−１４">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="IS_prac5_14:" destination="2" eventType="touchUpInside" id="YUL-39-CrE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xHd-5L-xfV">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="演習５−１６">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="IS_prac5_16:" destination="2" eventType="touchUpInside" id="Mcf-T8-tfI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xrQ-u5-hgy">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="演習５−１７">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="IS_prac5_17:" destination="2" eventType="touchUpInside" id="vCR-ts-JZN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vf1-mD-cIV">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="演習５−１８">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="IS_prac5_18:" destination="2" eventType="touchUpInside" id="qVO-sV-S7v"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dto-vz-ytJ">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="演習５−１９">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="IS_prac5_19:" destination="2" eventType="touchUpInside" id="iKw-v4-OmY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jtj-zm-DN4">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="演習５−２０">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="IS_prac5_20:" destination="2" eventType="touchUpInside" id="8nB-9H-X9G"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0eU-Zl-apA">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="演習５−２１">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="IS_prac5_21:" destination="2" eventType="touchUpInside" id="DXI-oz-bQI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TYm-jL-KJ1">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="演習５−２２">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="IS_prac5_22:" destination="2" eventType="touchUpInside" id="ZZ8-2i-v68"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dto-vz-ytJ" firstAttribute="top" secondItem="vf1-mD-cIV" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="0SW-WQ-MJn"/>
+                            <constraint firstItem="xHd-5L-xfV" firstAttribute="centerX" secondItem="Cx2-4v-D4p" secondAttribute="centerX" type="default" id="4Je-x8-1us"/>
+                            <constraint firstItem="Cx2-4v-D4p" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="79t-Jg-MUq"/>
+                            <constraint firstItem="0eU-Zl-apA" firstAttribute="centerX" secondItem="Jtj-zm-DN4" secondAttribute="centerX" type="default" id="B42-Po-Nnd"/>
+                            <constraint firstItem="xrQ-u5-hgy" firstAttribute="centerX" secondItem="xHd-5L-xfV" secondAttribute="centerX" type="default" id="ENb-I6-blt"/>
+                            <constraint firstItem="vf1-mD-cIV" firstAttribute="top" secondItem="xrQ-u5-hgy" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Fb7-O6-f0y"/>
+                            <constraint firstItem="TYm-jL-KJ1" firstAttribute="top" secondItem="0eU-Zl-apA" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="GeI-4m-xlD"/>
+                            <constraint firstItem="dto-vz-ytJ" firstAttribute="centerX" secondItem="vf1-mD-cIV" secondAttribute="centerX" type="default" id="Phg-ns-Q6T"/>
+                            <constraint firstItem="0eU-Zl-apA" firstAttribute="top" secondItem="Jtj-zm-DN4" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="cn1-HK-5pi"/>
+                            <constraint firstItem="xHd-5L-xfV" firstAttribute="top" secondItem="Cx2-4v-D4p" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="i6L-6L-LHC"/>
+                            <constraint firstItem="Jtj-zm-DN4" firstAttribute="top" secondItem="dto-vz-ytJ" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="l1y-ai-Kpv"/>
+                            <constraint firstItem="Jtj-zm-DN4" firstAttribute="centerX" secondItem="dto-vz-ytJ" secondAttribute="centerX" type="default" id="pM8-6p-K1T"/>
+                            <constraint firstItem="TYm-jL-KJ1" firstAttribute="centerX" secondItem="0eU-Zl-apA" secondAttribute="centerX" type="default" id="pec-4p-eb9"/>
+                            <constraint firstItem="vf1-mD-cIV" firstAttribute="centerX" secondItem="xrQ-u5-hgy" secondAttribute="centerX" type="default" id="rEX-Pw-w9R"/>
+                            <constraint firstItem="xrQ-u5-hgy" firstAttribute="top" secondItem="xHd-5L-xfV" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="ujv-NA-bp3"/>
+                            <constraint firstItem="TYm-jL-KJ1" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="wlf-0j-hJE"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="IS_prac5_14:"/>
+                <relationship kind="action" name="IS_prac5_16:"/>
+                <relationship kind="action" name="IS_prac5_17:"/>
+                <relationship kind="action" name="IS_prac5_18:"/>
+                <relationship kind="action" name="IS_prac5_19:"/>
+                <relationship kind="action" name="IS_prac5_20:"/>
+                <relationship kind="action" name="IS_prac5_21:"/>
+                <relationship kind="action" name="IS_prac5_22:"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
